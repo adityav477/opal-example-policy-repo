@@ -8,5 +8,5 @@ allow {
 
 allow {
   input.user.subscription_status == "free"
-  input.user.usage < 100
+  input.user.apiCount < 6
 }
